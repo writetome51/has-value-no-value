@@ -1,0 +1,30 @@
+{
+  "name": "@writetome51/is-defined-not-defined",
+  "version": "1.0.0",
+  "description": "Functions that check if argument is or is not undefined or null",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/is-defined-not-defined.git"
+  },
+  "keywords": [
+    "is",
+    "not",
+    "defined",
+    "type-checking",
+    "type",
+    "check",
+    "data-type"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/is-defined-not-defined/issues"
+  },
+  "homepage": "https://github.com/writetome51/is-defined-not-defined#readme",
+  "dependencies": {
+  }
+}
