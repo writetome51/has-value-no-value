@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/has-value-no-value",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "2 functions that check if argument is undefined or null",
   "main": "index.js",
   "scripts": {
