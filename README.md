@@ -1,20 +1,20 @@
-# isDefined(arg): boolean
+# hasValue(arg): boolean
 
 Returns true if `arg` is neither undefined or null.
 
-# notDefined(arg): boolean
+# noValue(arg): boolean
 
 Returns true if `arg` is either undefined or null.
 
 
 ## Installation
-`npm i  @writetome51/is-defined-not-defined`
+`npm i  @writetome51/has-value-no-value`
 
 ## Loading
 ```
 // if using TypeScript:
-import { isDefined, notDefined } from '@writetome51/is-defined-not-defined';
+import { hasValue, noValue } from '@writetome51/has-value-no-value';
 // if using ES5 JavaScript:
-var  isDefined = require('@writetome51/is-defined-not-defined').isDefined
-var notDefined = require('@writetome51/is-defined-not-defined').notDefined;
+var  hasValue = require('@writetome51/has-value-no-value').hasValue
+var noValue = require('@writetome51/has-value-no-value').noValue;
 ```

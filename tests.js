@@ -1,50 +1,67 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", {value: true});
-var notDefined = require("./index").notDefined;
-var isDefined = require("./index").isDefined;
+var noValue = require("./index").noValue;
+var hasValue = require("./index").hasValue;
 
 
-if (isDefined([]))
+if (hasValue([]))
 	console.log('test 1 passed');
 else
 	console.log('test 1 FAILED');
 
-if (isDefined({}))
+
+if (hasValue({}))
 	console.log('test 2 passed');
 else
 	console.log('test 2 FAILED');
 
-if (isDefined(''))
+
+if (hasValue(''))
 	console.log('test 3 passed');
 else
 	console.log('test 3 FAILED');
 
-if (isDefined(0))
+
+if (hasValue(0))
 	console.log('test 4 passed');
 else
 	console.log('test 4 FAILED');
 
-if (isDefined(false))
+
+if (hasValue(false))
 	console.log('test 5 passed');
 else
 	console.log('test 5 FAILED');
 
-if (isDefined(function(){}))
+
+if (hasValue(function() {
+}))
 	console.log('test 6 passed');
 else
 	console.log('test 6 FAILED');
 
-if (notDefined(null))
+
+if (noValue(null))
 	console.log('test 7 passed');
 else
 	console.log('test 7 FAILED');
 
-if (notDefined(undefined))
+
+if (noValue(undefined))
 	console.log('test 8 passed');
 else
 	console.log('test 8 FAILED');
 
-if (notDefined(10))
-	console.log('test 9 FAILED');
+
+let x = null;
+if (noValue(x))
+	console.log('test 10 passed');
 else
-	console.log('test 9 passed');
+	console.log('test 10 FAILED');
+
+
+let y;
+if (noValue(y))
+	console.log('test 11 passed');
+else
+	console.log('test 11 FAILED');

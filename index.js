@@ -2,15 +2,15 @@
 Object.defineProperty(exports, "__esModule", {value: true});
 
 
-function notDefined(data) {
-	return (data === undefined || data === null);
+function noValue(arg) {
+	return (arg === undefined || arg === null);
 }
-exports.notDefined = notDefined;
+exports.noValue = noValue;
 
 
-// data is considered defined if its value is not undefined or null.
+// arg is considered defined if its value is not undefined or null.
 
-function isDefined(data) {
-	return !(notDefined(data));
+function hasValue(arg) {
+	return !(noValue(arg));
 }
-exports.isDefined = isDefined;
+exports.hasValue = hasValue;

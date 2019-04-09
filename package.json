@@ -1,14 +1,14 @@
 {
-  "name": "@writetome51/is-defined-not-defined",
+  "name": "@writetome51/has-value-no-value",
   "version": "1.0.0",
-  "description": "Functions that check if argument is or is not undefined or null",
+  "description": "2 functions that check if argument is undefined or null",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/writetome51/is-defined-not-defined.git"
+    "url": "git+https://github.com/writetome51/has-value-no-value.git"
   },
   "keywords": [
     "is",
@@ -22,9 +22,9 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/writetome51/is-defined-not-defined/issues"
+    "url": "https://github.com/writetome51/has-value-no-value/issues"
   },
-  "homepage": "https://github.com/writetome51/is-defined-not-defined#readme",
+  "homepage": "https://github.com/writetome51/has-value-no-value#readme",
   "dependencies": {
   }
 }
