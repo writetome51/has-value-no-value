@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/has-value-no-value",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "2 functions that check if argument is undefined or null",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,13 @@
     "is",
     "not",
     "defined",
+    "undefined",
+    "null",
+    "has",
+    "value",
     "type-checking",
     "type",
-    "check",
-    "data-type"
+    "check"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
