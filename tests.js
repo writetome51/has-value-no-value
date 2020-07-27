@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", {value: true});
-var noValue = require("./index").noValue;
-var hasValue = require("./index").hasValue;
+import {hasValue, noValue} from './index.js';
 
 
 if (hasValue([]))
